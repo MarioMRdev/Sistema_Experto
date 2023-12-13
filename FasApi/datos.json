@@ -1,0 +1,42 @@
+{
+    "1": {
+        "sintomas": ["Esta babeando"],
+        "solucion": "Aumentar la longitud de retirada del filamento. El retroceso del filamento hará que la presión en el calentador del cabezal de impresión disminuya."
+    },
+    "2": {
+        "sintomas": ["Se esta desmoronando"],
+        "solucion": "Ventile el plástico depositado de forma más eficiente..."
+    },
+    "3": {
+        "sintomas": ["Esta ampollando"],
+        "solucion": "Coloque más monedas en el plato cuando imprima. De este modo, la boquilla imprime mas objetos y da a la pieza mas tiempo para que se enfríe antes de planchar. Refrigere mejor su objeto impreso en 3D añadiendo sistemas de refrigeración."
+    },
+    "4": {
+        "sintomas": ["Se delamina"],
+        "solucion": "Calibrar la extrusora para obtener un caudal de material acorde con los datos de la cortadora."
+    },
+    "5": {
+        "sintomas": ["Los angulos no estan formando bien"],
+        "solucion": "Las esquinas no son lo suficientemente rectas, incluso pueden salir y aumentar el tamaño de la habitación."
+    },
+    "6": {
+        "sintomas": ["Se forman burbujas en la primera capa"],
+        "solucion": "Almacene las bobinas de materia prima en un envase seco y sellado con una bolsita de desecante."
+    },
+    "7": {
+        "sintomas": ["No hay suficiente materia en las partes delgadas"],
+        "solucion": "Disminuya la velocidad y longitud de retracción al imprimir."
+    },
+    "8": {
+        "sintomas": ["Una capa se mueve horizontalmente"],
+        "solucion": "Reducir la aceleración en el eje afectado por el problema."
+    },
+    "9": {
+        "sintomas": ["Las capas cambian uniformemente"],
+        "solucion": "Enfriar los motores utilizando sistemas de refrigeración (ventiladores)."
+    },
+    "10": {
+        "sintomas": ["La densidad de extrusion es demasiado baja"],
+        "solucion": "Desenchufe la boquilla de extrusion."
+    }
+}

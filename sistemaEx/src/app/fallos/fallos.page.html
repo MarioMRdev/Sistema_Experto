@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Búsqueda de Fallos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- Agrega un formulario para ingresar síntomas -->
+  <ion-item>
+    <!-- Utiliza la propiedad "label" para asociar una etiqueta al input -->
+    <ion-label position="floating">Síntomas</ion-label>
+    <ion-input [(ngModel)]="sintomas" name="sintomas"></ion-input>
+  </ion-item>
+
+  <!-- Agrega un botón para realizar la búsqueda -->
+  <ion-button (click)="buscarFallos()">Buscar Fallos</ion-button>
+
+  <!-- Muestra los resultados de la búsqueda -->
+  <ion-card *ngIf="resultados && resultados.length > 0">
+    <ion-card-header>
+      Resultados
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item *ngFor="let resultado of resultados">
+          {{ resultado.id }} - {{ resultado.solucion }}
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Muestra un mensaje si no hay resultados -->
+  <div *ngIf="resultados && resultados.length === 0">
+    <p>No se encontraron sugerencias para los síntomas proporcionados.</p>
+  </div>
+</ion-content>
+

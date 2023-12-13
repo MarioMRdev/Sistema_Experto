@@ -1,0 +1,27 @@
+/* fallos.page.scss */
+
+  ion-toolbar {
+    color: #ffffff;
+  }
+  
+  ion-content {
+    padding: 10px;
+  }
+  
+  ion-item {
+    margin-bottom: 10px;
+  }
+  
+  ion-button {
+    background-color: #44d668; /* Asegura que esta regla tenga prioridad */
+    color: #ffffff;
+    border-radius: 20px;
+    width: 150px;
+    margin: 15px auto;
+    display: block;
+  }
+  
+  ion-card {
+    margin-top: 20px;
+  }
+  
